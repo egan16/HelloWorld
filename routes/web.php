@@ -2,7 +2,7 @@
 # @Author: michaelegan
 # @Date:   2019-09-09T17:26:19+01:00
 # @Last modified by:   michaelegan
-# @Last modified time: 2019-09-24T14:09:08+01:00
+# @Last modified time: 2019-09-24T14:16:36+01:00
 
 
 
@@ -28,4 +28,8 @@ Route::get('/HelloWorld', function () {
 
 Route::get('/mikey', function () {
     return view('mikey');
+});
+
+Route::get('/about', function () {
+    return view('about');
 });
