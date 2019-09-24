@@ -2,7 +2,7 @@
 # @Author: michaelegan
 # @Date:   2019-09-09T17:26:19+01:00
 # @Last modified by:   michaelegan
-# @Last modified time: 2019-09-24T14:16:36+01:00
+# @Last modified time: 2019-09-24T15:11:52+01:00
 
 
 
@@ -33,3 +33,5 @@ Route::get('/mikey', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/hello', 'HelloController@hello');
